@@ -1,0 +1,77 @@
+/* -----------------------> Page navigation : Template du site <-------------------------- */
+/* ----> Navbar <---- */
+ .p_bgGreen {
+    background-image: linear-gradient(to bottom, #134e5e, #0c3f47, #0a3133);
+    justify-content: center;
+ }
+ 
+ .p_ftLogo {
+    font-family: "Ms Madi", cursive !important;
+    font-size: 30px !important;
+ }
+ 
+ .itemNavBar {
+    width: 60vw;
+    justify-content: space-around;
+ }
+ 
+ .btn-right {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    margin-right: 2%;
+ }
+ 
+ .deconnexionBtn {
+    background-color: #722f01 !important;
+ }
+ 
+ /* ----> Footer <---- */
+ footer {
+    min-width: 100%;
+ }
+ 
+ .aide {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ecf8f6;
+    align-items: baseline;
+    font-size: 12px;
+    height: 180px;
+ }
+ 
+ .p_ftLogo1 {
+    font-family: "Ms Madi", cursive !important;
+    font-size: 60px !important;
+ }
+ 
+ .miniLogo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+ }
+ 
+ .iconsSocial {
+    width: 2vw;
+    margin: 2%;
+ }
+ 
+ .article2,
+ .article3,
+ .article4 {
+    display: flex;
+    flex-direction: column;
+ }
+ 
+ .article2 a,
+ .article3 a,
+ .article4 a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+ }
+ 

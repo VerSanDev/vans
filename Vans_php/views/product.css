@@ -1,0 +1,45 @@
+.productContainer {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.productForm {
+   width: 55vw;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+   padding: 3%;
+   background-color: rgba(0, 0, 0, 0.5);
+   border-radius: 20px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin: 10% 0 8% 0;
+}
+
+.boxProduct,
+.formProduct5 {
+   width: 40vw;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.productTitle {
+   padding-bottom: 1%;
+   color: #feaa07;
+}
+
+.productInput {
+   width: 19vw !important;
+}
+
+.productTitleInput {
+   width: 40vw !important;
+}
+
+.productTextarea {
+   width: 40vw !important;
+   height: 20vh !important;
+}

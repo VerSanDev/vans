@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    background-image: url(https://www.papierpeintpanoramique.fr/media/catalog/product/cache/871f459736130e239a3f5e6472128962/w/1/w12252-small.jpg);
+
+}
+
+.header{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+.header h1{
+    height: 40%;
+    width: 100%;
+    text-transform: uppercase;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 72px;
+}
+.presentation{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+    gap: 10%;
+}
+.presentation h2{
+    font-size: 44px;
+    color:  #feaa07;
+}
+.presentation p{
+    width: 80%;
+    font-size: 20px;
+}
+
+
+/*  */
+.section {
+    height: 100vh;
+    width: 100vw;
+    overflow: auto;
+    gap: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card {
+    width: 80%;
+}
+.nolan .row,
+.sergio .row{
+    flex-direction: row-reverse;
+}
+.dev{
+    color: #feaa07 !important;
+}
+.andrea,
+.nolan,
+.veronique,
+.sergio {
+    background-color: rgba(0, 0, 0, 0.314) !important;
+}
+.card-text {
+    color: white;
+}
+.nolanus,
+.sergius {
+    display: flex;
+    justify-content: end;
+}

@@ -1,0 +1,58 @@
+/* -----------------------> Page Annonces : Formulaire <-------------------------- */
+/* ----> Formulaire multisearch <---- */
+.filter-main {
+   display: flex;
+   flex-direction: row;
+   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.form-filter {
+   padding: 20px;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   margin: 5% 0 0 0;
+}
+
+.filter-group {
+   display: flex;
+   flex-direction: row;
+   gap: 3%;
+}
+
+.filter-title h1 {
+   font-size: 20px;
+   color: #feaa07;
+}
+
+.input-filter-search {
+   width: 0px;
+   padding: 10px;
+   font-size: 16px;
+   border: none;
+   outline: none;
+}
+
+.button-refresh {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-top: 6%;
+}
+
+/* ----> affichage recherche générale <---- */
+#resultats {
+   width: 620px;
+   font-size: 14px;
+   margin: 20px auto;
+   color: #fff;
+   text-align: left;
+}
+
+#nbr {
+   color: #fa2;
+   font-family: "Raleway";
+   font-size: 16px;
+   border-bottom: solid 1px #888;
+   padding: 10px 0;
+}

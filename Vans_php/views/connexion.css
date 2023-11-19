@@ -1,0 +1,63 @@
+.connexionContainer {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.registerContainer,
+.loginContainer {
+   width: 55vw;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+   padding: 3%;
+   background-color: rgba(0, 0, 0, 0.5);
+   border-radius: 20px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin: 10% 0 8% 0;
+}
+
+.connexionTitle {
+   padding-bottom: 1%;
+   color: #feaa07;
+}
+
+.connexionInput {
+   width: 40vw !important;
+}
+
+.form-group {
+   padding-top: 5%;
+}
+
+.form-group a {
+   color: #feaa07;
+}
+
+.form-floating p {
+   color: #feaa07;
+}
+
+.btn-register,
+.btn-login {
+   font-size: 15px;
+   font-weight: bold;
+   width: 25vw !important;
+}
+.textPassword {
+   font-size: smaller;
+   padding: 0;
+   margin: 0;
+   width: 40vw !important;
+}
+
+.box-register {
+   color: #ffffff;
+   font-style: italic;
+}
+
+.transparent-input {
+   background-color: transparent;
+}

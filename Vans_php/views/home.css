@@ -1,0 +1,209 @@
+/* -----------------------> CSS Site Vans <-------------------------- */
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   background-image: url(https://www.papierpeintpanoramique.fr/media/catalog/product/cache/871f459736130e239a3f5e6472128962/w/1/w12252-small.jpg);
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+}
+
+main {
+   min-width: 100vw;
+}
+
+h1,
+h2,
+p {
+   color: white;
+}
+
+/* -----------------------> Page Home : Vitrine site <-------------------------- */
+.hero {
+   height: 45vh;
+   width: 100%;
+   background-image: url("../images/sortie-de-grange-vente-encheres-collection-barning-palmen-1_4.jpg");
+   background-repeat: no-repeat;
+   background-position: bottom;
+   background-size: cover;
+}
+
+.p_ftLogo2 {
+   font-family: "Ms Madi", cursive !important;
+   padding-top: 5%;
+   font-size: 98px !important;
+   color: #feaa07;
+}
+
+/* -----------------------> Page Home, Annonce : Popup <-------------------------- */
+.list {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   padding: 0px 12px;
+   margin-bottom: 2%;
+   gap: 30px;
+}
+
+.cardA {
+   margin: 20px 0;
+   min-height: 40vh;
+   width: 314px;
+   background-color: #ecf8f6;
+   display: flex;
+   flex-direction: column;
+   border-radius: 6%;
+   overflow: hidden;
+}
+.cardA.active {
+   position: absolute;
+   height: 80%;
+   width: 80%;
+   z-index: 4;
+   top: 13%;
+   border-radius: 20px;
+}
+.cardA.active .cla-image {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.cardA.active .cla-image img {
+   width: fit-content;
+}
+
+.cla-mark {
+   grid-area: mark;
+}
+.cla-model {
+   grid-area: model;
+}
+.cla-year {
+   grid-area: year;
+}
+.cla-power {
+   grid-area: power;
+}
+.cla-last_price {
+   grid-area: last_price;
+}
+.cla-starting_price {
+   grid-area: starting_price;
+}
+.cla-id_product {
+   grid-area: id_product;
+}
+.cla-end_date {
+   grid-area: end_date;
+}
+.cla-description {
+   grid-area: description;
+}
+.cla-title {
+   grid-area: title;
+}
+.cla-image {
+   grid-area: image;
+   background-color: #134e5e;
+}
+
+.cardA.active .image {
+   height: 400px;
+}
+
+.info {
+   display: grid;
+   grid-template-columns: 100%;
+   grid-template-rows: 40% 30% 15% 15%;
+   grid-template-areas:
+      "image     "
+      "title     "
+      "last_price"
+      "end_date  ";
+   height: 100%;
+   width: 100%;
+}
+.cardA.active .info {
+   overflow: auto;
+   display: grid;
+   grid-template-columns: 50%;
+   grid-template-rows: 40% auto;
+   grid-template-areas:
+      "image       image         "
+      "title       title         "
+      "mark        model         "
+      "year        power         "
+      "starting_price last_price "
+      " end_date   ."
+      "description description   ";
+   overflow-y: auto;
+   height: 800px;
+}
+.cla-image {
+   padding: 30px 30px 30px 0;
+}
+.cla-image img {
+   width: 100%;
+   height: 100%;
+}
+.info div {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   padding-left: 30px;
+}
+.cardA .cla-starting_price,
+.cardA .cla-description,
+.cardA .cla-id_product,
+.cardA .cla-0,
+.cardA .cla-power,
+.cardA .cla-model,
+.cardA .cla-year,
+.cardA .cla-mark {
+   display: none;
+}
+
+.cardA.active .cla-end_date,
+.cardA.active .cla-starting_price,
+.cardA.active .cla-description,
+.cardA.active .cla-power,
+.cardA.active .cla-model,
+.cardA.active .cla-year,
+.cardA.active .cla-mark {
+   display: flex;
+}
+
+.lienAchat {
+   display: none;
+}
+.cardA.active .lienAchat {
+   height: 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.lienAchat .btnAuction {
+   width: 120px;
+   height: 40px;
+   border-radius: 5px;
+   background: #134e5e;
+   border: none;
+   color: white;
+   text-decoration: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.infoEncherePopup {
+   color: black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
